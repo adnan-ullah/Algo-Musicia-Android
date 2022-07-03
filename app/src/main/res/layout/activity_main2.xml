@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bgpic1"
+
+    android:id="@+id/albumFragmentChild"
+android:alpha=".7"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:scaleType="fitCenter"
+
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+
+
+        android:src="@drawable/algo_app_logo"
+        >
+
+    </ImageView>
+
+
+    <TextView
+            android:id="@+id/AppText"
+        android:layout_margin="20dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="Algo Musicia"
+        android:textColor="@color/whiteee"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+
+
+        android:textCursorDrawable="@android:color/holo_red_light"
+        android:textColorHighlight="@android:color/background_dark"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+
+        android:layout_margin="20dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="We care about simplacity....."
+        android:textColor="#89FF8E"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+android:layout_alignParentBottom="true"
+
+        android:textCursorDrawable="@android:color/holo_red_light"
+        android:textColorHighlight="@android:color/background_dark"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</RelativeLayout>

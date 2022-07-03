@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Record_AudioList_Fragment"
+    android:background="#042320">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+            android:id="@+id/backFromRecord"
+            android:background="@android:color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:scaleType="fitCenter"
+            android:translationZ="180dp"
+            app:srcCompat="@drawable/backbt" />
+        <TextView
+
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/backFromRecord"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:text="My Recordings"
+            android:textColor="@android:color/white"
+           android:textAlignment="center"
+            android:layout_marginRight="40dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/open_sans_semibold"
+
+
+          />
+
+    </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="60dp"
+            android:id="@+id/audio_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <include layout="@layout/player_sheet" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

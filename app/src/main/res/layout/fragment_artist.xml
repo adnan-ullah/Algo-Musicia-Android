@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+
+    android:id="@+id/artistFragment"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgpic1"
+        android:scaleType="centerCrop"
+        android:alpha="0.6"/>
+
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_margin="20dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="ARTISTS"
+        android:textColor="@color/whiteee"
+        android:textSize="22sp"
+        android:textAlignment="center"
+
+
+        android:textCursorDrawable="@android:color/holo_red_light"
+        android:textColorHighlight="@android:color/background_dark"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+
+    <ListView
+        android:id="@+id/listViewArtist"
+
+
+
+        android:layout_marginTop="150dp"
+        android:dividerHeight="10sp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+
+</RelativeLayout>

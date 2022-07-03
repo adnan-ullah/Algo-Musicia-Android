@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="secondaryColor">#4caf50</color>
+    <color name="primaryColor">#212121</color>
+    <color name="primaryLightColor">#313131</color>
+    <color name="primaryDarkColor">#101010</color>
+    <color name="playingCardColor">#444caf50</color>
+    <color name="textColor">#FAFAFA</color>
+    <color name="whiteee">#FFDB9C</color>
+    <color name = "darkkk_grey">#373434</color>
+    <color name = "accencolor">#8F3E3C</color>
+
+
+    <color name="colorDarkBlue">@android:color/transparent</color>
+
+</resources>
